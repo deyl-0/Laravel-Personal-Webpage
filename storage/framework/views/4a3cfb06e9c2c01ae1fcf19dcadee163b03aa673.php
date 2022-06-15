@@ -1,0 +1,2 @@
+<div id="copyright text-right" style="text-align:center"> Copyright 2022 Dale Gibson M. Magpantay</div>
+<?php /**PATH C:\Users\Acer\Documents\Laravel-Finals-Activity-main\resources\views/includes/footer.blade.php ENDPATH**/ ?>

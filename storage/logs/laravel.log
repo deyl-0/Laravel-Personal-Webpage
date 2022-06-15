@@ -1,0 +1,58 @@
+[2022-06-15 09:03:47] local.ERROR: Target class [Fruitcake\Cors\HandleCors] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Fruitcake\\Cors\\HandleCors] does not exist. at C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:879)
+[stacktrace]
+#0 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(758): Illuminate\\Container\\Container->build('Fruitcake\\\\Cors\\\\...')
+#1 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(855): Illuminate\\Container\\Container->resolve('Fruitcake\\\\Cors\\\\...', Array, true)
+#2 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(694): Illuminate\\Foundation\\Application->resolve('Fruitcake\\\\Cors\\\\...', Array)
+#3 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(840): Illuminate\\Container\\Container->make('Fruitcake\\\\Cors\\\\...', Array)
+#4 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(169): Illuminate\\Foundation\\Application->make('Fruitcake\\\\Cors\\\\...')
+#5 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#8 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#9 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#10 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#11 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\server.php(21): require_once('C:\\\\Users\\\\Acer\\\\D...')
+#12 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"Fruitcake\\Cors\\HandleCors\" does not exist at C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:877)
+[stacktrace]
+#0 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(877): ReflectionClass->__construct('Fruitcake\\\\Cors\\\\...')
+#1 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(758): Illuminate\\Container\\Container->build('Fruitcake\\\\Cors\\\\...')
+#2 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(855): Illuminate\\Container\\Container->resolve('Fruitcake\\\\Cors\\\\...', Array, true)
+#3 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(694): Illuminate\\Foundation\\Application->resolve('Fruitcake\\\\Cors\\\\...', Array)
+#4 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(840): Illuminate\\Container\\Container->make('Fruitcake\\\\Cors\\\\...', Array)
+#5 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(169): Illuminate\\Foundation\\Application->make('Fruitcake\\\\Cors\\\\...')
+#6 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#10 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#11 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#12 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\server.php(21): require_once('C:\\\\Users\\\\Acer\\\\D...')
+#13 {main}
+"} 
+[2022-06-15 09:03:49] local.ERROR: Target class [Fruitcake\Cors\HandleCors] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Fruitcake\\Cors\\HandleCors] does not exist. at C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:879)
+[stacktrace]
+#0 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(758): Illuminate\\Container\\Container->build('Fruitcake\\\\Cors\\\\...')
+#1 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(855): Illuminate\\Container\\Container->resolve('Fruitcake\\\\Cors\\\\...', Array, true)
+#2 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(694): Illuminate\\Foundation\\Application->resolve('Fruitcake\\\\Cors\\\\...', Array)
+#3 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(840): Illuminate\\Container\\Container->make('Fruitcake\\\\Cors\\\\...', Array)
+#4 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(206): Illuminate\\Foundation\\Application->make('Fruitcake\\\\Cors\\\\...')
+#5 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(180): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\server.php(21): require_once('C:\\\\Users\\\\Acer\\\\D...')
+#8 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"Fruitcake\\Cors\\HandleCors\" does not exist at C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:877)
+[stacktrace]
+#0 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(877): ReflectionClass->__construct('Fruitcake\\\\Cors\\\\...')
+#1 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(758): Illuminate\\Container\\Container->build('Fruitcake\\\\Cors\\\\...')
+#2 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(855): Illuminate\\Container\\Container->resolve('Fruitcake\\\\Cors\\\\...', Array, true)
+#3 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(694): Illuminate\\Foundation\\Application->resolve('Fruitcake\\\\Cors\\\\...', Array)
+#4 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(840): Illuminate\\Container\\Container->make('Fruitcake\\\\Cors\\\\...', Array)
+#5 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(206): Illuminate\\Foundation\\Application->make('Fruitcake\\\\Cors\\\\...')
+#6 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(180): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 C:\\Users\\Acer\\Documents\\Laravel-Finals-Activity-main\\server.php(21): require_once('C:\\\\Users\\\\Acer\\\\D...')
+#9 {main}
+"} 
